@@ -1,0 +1,159 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-image: url("../img/background-contatos-heyon1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh ;
+	background-attachment: fixed;
+	font-family: 'Abel', sans-serif;
+}
+@media screen and (min-width: 550px) {
+Arrumar textos.
+		
+}
+@media screen and (min-width: 550px) {
+	main {
+		margin: 10px 40px 20px 20vw ;
+	}
+		
+}
+@media screen and (min-width: 650px) {
+	.banner .presentation {
+		width: 70%;
+	}
+	.featured-box {
+		width: 50%;
+	}
+}
+@media screen and (min-width: 1230px) {
+	.banner .presentation {
+		width: 50%;
+	}
+	.featured-box {
+		width: 33.3%;
+	}
+}
+img, embed, object, video {
+	max-width: 100%;
+}
+hr {
+	display: flex;
+}
+.header {
+	width: 100%;
+	height: 20vh;
+	padding: 10px;
+	background-image: url("../img/back_quadrados_header1.png");
+}
+.bot-line {
+	border-bottom: 5px solid #02b3e4;
+}
+.logo {
+	float: left;
+	width: 30%;
+	height: 100%;
+}
+.logo img{
+	height: 100%;
+}
+.title-name {
+	float: right;
+	width: 70%;
+}
+.header h1, .header p {
+	text-transform: uppercase;
+	margin: 0px;
+	text-align: right;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.banner {
+	margin: 10px 0 0 0;
+	position: relative;
+	display: flex;
+}
+
+.banner img {
+	object-fit: none;
+	max-height: 50vh;
+	width: 100%;
+}
+.banner .presentation {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background-color: #123456;
+	opacity: 0.7;	
+	padding: 2%;
+}
+.welcome {
+
+	text-align: center;
+	height: 100%;
+}
+.welcome h3 {
+	color: white;
+	text-align: center;
+	margin-top: 0px
+}
+.welcome p {
+	color: white;
+	text-align: justify;
+
+}
+.welcome li {
+	color: white;
+	text-align: center;
+	float: left;
+	padding-right: 10%;
+}
+.boxed {
+	width: 100%;
+	height: 100%;
+}
+.featured-links {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+}
+.featured-links h2{
+	width: 100%;
+	text-align: center;
+}
+.featured-box {
+	padding: 20px;
+}
+.featured-box img{
+	box-shadow:  4px 2px 15px 0px rgba(92, 50, 147, 0.8);
+}
+.featured-box a.link {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: inherit;
+}
+.featured-box  h3{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: inherit;
+	margin: 6px;
+}
+.featured-box p {
+	text-decoration: underline;
+	color: blue;
+	margin-top: 0px;
+}
+.featured-box p:hover {
+	text-decoration: underline;
+	color: red;
+}
+.rodape-main {
+	text-align: center;
+	bottom: 0px;
+	right: 0px;
+	background-image: url("../img/stripes-light.png")
+}
