@@ -2,19 +2,17 @@
 	box-sizing: border-box;
 }
 body {
-	background-image: url("../img/background-contatos-heyon1.jpg");
+	background-image: url(../img/background-contatos-heyon1.jpg);
 	background-repeat: no-repeat;
-	background-size: 100vw 100vh ;
+	background-size: cover;
 	background-attachment: fixed;
 	font-family: 'Abel', sans-serif;
 }
-@media screen and (min-width: 550px) {
-Arrumar textos.
-		
-}
+
 @media screen and (min-width: 550px) {
 	main {
-		margin: 10px 40px 20px 20vw ;
+		margin-right: 12vw;
+		margin-left: 12vw;
 	}
 		
 }
@@ -34,8 +32,12 @@ Arrumar textos.
 		width: 33.3%;
 	}
 }
+main {
+		margin-top: 5px;
+	}
 img, embed, object, video {
 	max-width: 100%;
+	height: auto;
 }
 hr {
 	display: flex;
@@ -44,33 +46,29 @@ hr {
 	width: 100%;
 	height: 20vh;
 	padding: 10px;
-	background-image: url("../img/back_quadrados_header1.png");
+	background-image: url(../img/back_quadrados_header1.png);
+	display: flex;
 }
 .bot-line {
 	border-bottom: 5px solid #02b3e4;
 }
 .logo {
-	float: left;
-	width: 30%;
-	height: 100%;
+	width: 40%;
+	vertical-align: middle;
 }
-.logo img{
-	height: 100%;
+.logo img {
+	max-width: 100%;
+	max-height: 100%;
 }
 .title-name {
-	float: right;
-	width: 70%;
+	height: auto;
+	width: 60%;
+	vertical-align: middle;
 }
 .header h1, .header p {
 	text-transform: uppercase;
 	margin: 0px;
 	text-align: right;
-}
-.left {
-	float: left;
-}
-.right {
-	float: right;
 }
 .banner {
 	margin: 10px 0 0 0;
@@ -155,5 +153,5 @@ hr {
 	text-align: center;
 	bottom: 0px;
 	right: 0px;
-	background-image: url("../img/stripes-light.png")
+	background-image: url(../img/stripes-light.png)
 }
